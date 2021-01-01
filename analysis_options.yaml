@@ -1,0 +1,10 @@
+include: package:effective_dart/analysis_options.yaml
+
+linter:
+  rules:
+    avoid_classes_with_only_static_members: false
+    avoid_positional_boolean_parameters: false
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
